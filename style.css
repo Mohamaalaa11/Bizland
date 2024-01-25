@@ -88,8 +88,23 @@
 
   .card-footer{
     border: 0;
-    
+
   }
+
+  .card-header{
+    border: 0;
+    background-color: #f8f8f8;
+  }
+
+  .card-header .advanced {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    transform: rotate(45deg);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   /* }
   /* .text-center.card {
     border: none;
