@@ -37,6 +37,9 @@
   .carousel-indicators .active {
     background-color: #106eea;
   }
+  .spoo{
+    margin-top: 150px;
+  }
   
   .img-slider-section {
     background-image: url("../imgs/testimonials-bg.jpg") ;
@@ -105,7 +108,29 @@
     padding-right: 50px;
   }
 
-  /* }
-  /* .text-center.card {
-    border: none;
-  }  */
+  ul.ps-2 {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul.ps-2 li {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .counter-box {
+    position: relative;
+    
+  }
+  
+  .counter-circle {
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    border: 5px solid white;
+    top: -30px;
+  }
+
+  
