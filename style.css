@@ -31,6 +31,8 @@
     margin-bottom:50px ;
     margin-top: 150px;
 }
+
+
 /* Image Slider Section */
 .carousel-indicators button {
     width: 12px !important;
@@ -46,10 +48,12 @@
   }
   
   .img-slider-section {
-    background-image: url("../imgs/testimonials-bg.jpg") ;
+    background-image: url("imgs/testimonials-bg.jpg") ;
     background-repeat: no-repeat;
+    opacity: 70%;
     background-size:cover;
     background-position: center center;
+    background-color: rgba(255, 255, 255, 0.8); 
 
   }
   
